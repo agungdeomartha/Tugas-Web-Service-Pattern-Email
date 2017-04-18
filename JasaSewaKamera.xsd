@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="sewakamera">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamat"/>
+                <xs:element ref="denda"/>
+                <xs:element ref="durasi"/>
+                <xs:element ref="email"/>
+                <xs:element ref="harga"/>
+                <xs:element ref="id"/>
+                <xs:element ref="jeniskamera"/>
+                <xs:element ref="peminjam"/>
+                <xs:element ref="tglkembali"/>
+                <xs:element ref="tglsewa"/>
+            </xs:choice>
+          
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alamat" type="xs:NCName"/>
+    <xs:element name="denda" type="xs:integer"/>
+    <xs:element name="durasi" type="xs:string"/>
+    <xs:element name="email">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    			<xs:pattern
+    				value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}">
+    			</xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="harga">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:integer">
+                    <xs:attribute name="harga" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="id" type="xs:integer"/>
+    <xs:element name="jeniskamera" type="xs:string"/>
+    <xs:element name="peminjam" type="xs:NCName"/>
+    <xs:element name="tglkembali" type="xs:string"/>
+    <xs:element name="tglsewa" type="xs:string"/>
+</xs:schema>
