@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sewakamera xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="JasaSewaKamera.xsd">
+	
+	<id>11</id>
+	<peminjam>Dhea</peminjam>
+	<alamat>Subang</alamat>
+	<jeniskamera>ACTION CAM</jeniskamera>
+	<harga harga="100 ribu perhari">100</harga>
+	<tglkembali>10 januari</tglkembali>
+	<tglsewa>9 januari</tglsewa>
+	<durasi>1 hari</durasi>
+	<denda>0</denda>
+	<email>dheaimut@gmail.com</email>
+	
+	<id>12</id>
+	<peminjam>Yusri</peminjam>
+	<alamat>Bogor</alamat>
+	<jeniskamera>DSLR</jeniskamera>
+	<harga harga="100 ribu perhari">150</harga>
+	<tglkembali>12 januari</tglkembali>
+	<tglsewa>11 januari</tglsewa>
+	<durasi>1 hari</durasi>
+	<denda>0</denda>
+	<email>yusriimut@gmail.com</email>
+	
+	<id>13</id>
+	<peminjam>Sabda</peminjam>
+	<alamat>Tasik</alamat>
+	<jeniskamera>ACTION CAM</jeniskamera>
+	<harga harga="100 ribu perhari">100</harga>
+	<tglkembali>10 februari</tglkembali>
+	<tglsewa>9 februari</tglsewa>
+	<durasi>1 hari</durasi>
+	<denda>0</denda>
+	<email>sabdaimut@gmail.com</email>
+	
+	<id>14</id>
+	<peminjam>Diana</peminjam>
+	<alamat>Ciasmis</alamat>
+	<jeniskamera>Drone</jeniskamera>
+	<harga harga="100 ribu perhari">100</harga>
+	<tglkembali>10 januari</tglkembali>
+	<tglsewa>9 januari</tglsewa>
+	<durasi>1 hari</durasi>
+	<denda>0</denda>
+	<email>dianaimut@gmail.com</email>
+	
+	<id>15</id>
+	<peminjam>Dana</peminjam>
+	<alamat>Aceh</alamat>
+	<jeniskamera>Mirrorless CAM</jeniskamera>
+	<harga harga="100 ribu perhari">100</harga>
+	<tglkembali>10 februari</tglkembali>
+	<tglsewa>9 februari</tglsewa>
+	<durasi>1 hari</durasi>
+	<denda>0</denda>
+	<email>danaimut@gmail.com</email>
+	
+	
+</sewakamera>
